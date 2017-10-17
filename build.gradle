@@ -1,0 +1,10 @@
+task clean(type: Delete) {    
+	doLast {
+
+		println "\n" 
+   
+		println project.buildDir
+
+		println "\n\n*********** END *************"		
+	}
+}
